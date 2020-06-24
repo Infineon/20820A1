@@ -5,7 +5,7 @@
   <vendor>Cypress</vendor>
   <flash>262144</flash>
   <ram>163840</ram>
-  <package>35-SMT</package>
+  <package>35-SMT_C</package>
   <minvoltage>1620</minvoltage>
   <maxvoltage>3630</maxvoltage>
   <description>The CYBT-243053-02 device.</description>
