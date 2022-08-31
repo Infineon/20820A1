@@ -122,7 +122,7 @@ sub main
             $got_xip_skip_cgs = 1;
         }
         # platform cgs
-        elsif(($cgs =~ /platforms\/[^\.]+.cgs$/) || ($cgs =~ /TARGET_.*\/.*.cgs$/)) {
+        elsif(($cgs =~ /platforms\/[^\.]+.cgs$/) || ($cgs =~ /TARGET_.*\/.*.cgs$/) || ($cgs =~ /libraries\/prebuilt\/[^\.]+.cgs$/)) {
             $cgs_record->{'type'} = 'platform';
             $cgs_record->{'order'} = 3;
         }
