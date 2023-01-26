@@ -9,7 +9,7 @@ ENTRY "Config Data Version"
 }
 ENTRY "Init BB Register Bit Fields"
 {
-    "Num entries" = 31
+    "Num entries" = 27
     "Register address[0]" = 0x00320000
     "Bit field mask[0]" = 0x00000F70
     "Value[0]" = 0x00000860
@@ -31,78 +31,66 @@ ENTRY "Init BB Register Bit Fields"
     "Register address[6]" = 0x6003c4
     "Bit field mask[6]" = 0xffffffff
     "Value[6]" = 0x1b
-    "Register address[7]" = 0x600168
+    "Register address[7]" = 0x60044c
     "Bit field mask[7]" = 0xffffffff
-    "Value[7]" = 0x3
-    "Register address[8]" = 0x600170
+    "Value[7]" = 0x14
+    "Register address[8]" = 0x4101b4
     "Bit field mask[8]" = 0xffffffff
-    "Value[8]" = 0x7
-    "Register address[9]" = 0x600174
+    "Value[8]" = 0x910c
+    "Register address[9]" = 0x410144
     "Bit field mask[9]" = 0xffffffff
-    "Value[9]" = 0xb
-    "Register address[10]" = 0x600178
+    "Value[9]" = 0x90a
+    "Register address[10]" = 0x640060
     "Bit field mask[10]" = 0xffffffff
-    "Value[10]" = 0x10
-    "Register address[11]" = 0x60044c
+    "Value[10]" = 0xb
+    "Register address[11]" = 0x60066c
     "Bit field mask[11]" = 0xffffffff
-    "Value[11]" = 0x14
-    "Register address[12]" = 0x4101b4
+    "Value[11]" = 0x7
+    "Register address[12]" = 0x600664
     "Bit field mask[12]" = 0xffffffff
-    "Value[12]" = 0x910c
-    "Register address[13]" = 0x410144
+    "Value[12]" = 0x80
+    "Register address[13]" = 0x60028c
     "Bit field mask[13]" = 0xffffffff
-    "Value[13]" = 0x90a
-    "Register address[14]" = 0x640060
+    "Value[13]" = 0x54
+    "Register address[14]" = 0x600618
     "Bit field mask[14]" = 0xffffffff
-    "Value[14]" = 0xb
-    "Register address[15]" = 0x60066c
+    "Value[14]" = 0xf0
+    "Register address[15]" = 0x600648
     "Bit field mask[15]" = 0xffffffff
-    "Value[15]" = 0x7
-    "Register address[16]" = 0x600664
-    "Bit field mask[16]" = 0xffffffff
-    "Value[16]" = 0x80
-    "Register address[17]" = 0x60028c
+    "Value[15]" = 0x66
+    "Register address[16]" = 0x600668
+    "Bit field mask[16]" = 0xff
+    "Value[16]" = 0xb0
+    "Register address[17]" = 0x410384
     "Bit field mask[17]" = 0xffffffff
-    "Value[17]" = 0x54
-    "Register address[18]" = 0x600618
+    "Value[17]" = 0x95f7
+    "Register address[18]" = 0x4106e4
     "Bit field mask[18]" = 0xffffffff
-    "Value[18]" = 0xf0
-    "Register address[19]" = 0x600648
+    "Value[18]" = 0xa5a8
+    "Register address[19]" = 0x41073c
     "Bit field mask[19]" = 0xffffffff
-    "Value[19]" = 0x66
-    "Register address[20]" = 0x600668
+    "Value[19]" = 0x4c00
+    "Register address[20]" = 0x6002b8
     "Bit field mask[20]" = 0xff
-    "Value[20]" = 0xb0
-    "Register address[21]" = 0x410384
-    "Bit field mask[21]" = 0xffffffff
-    "Value[21]" = 0x95f7
-    "Register address[22]" = 0x4106e4
-    "Bit field mask[22]" = 0xffffffff
-    "Value[22]" = 0xa5a8
-    "Register address[23]" = 0x41073c
-    "Bit field mask[23]" = 0xffffffff
-    "Value[23]" = 0x4c00
-    "Register address[24]" = 0x6002b8
-    "Bit field mask[24]" = 0xff
-    "Value[24]" = 0xf0
-    "Register address[25]" = 0x600580
+    "Value[20]" = 0xf0
+    "Register address[21]" = 0x600580
+    "Bit field mask[21]" = 0xff
+    "Value[21]" = 0x26
+    "Register address[22]" = 0x600604
+    "Bit field mask[22]" = 0xff
+    "Value[22]" = 0x66
+    "Register address[23]" = 0x600654
+    "Bit field mask[23]" = 0xff
+    "Value[23]" = 0x66
+    "Register address[24]" = 0x4104cc
+    "Bit field mask[24]" = 0xffff
+    "Value[24]" = 0x5936
+    "Register address[25]" = 0x60019c
     "Bit field mask[25]" = 0xff
-    "Value[25]" = 0x26
-    "Register address[26]" = 0x600604
+    "Value[25]" = 0x0
+    "Register address[26]" = 0x600658
     "Bit field mask[26]" = 0xff
-    "Value[26]" = 0x66
-    "Register address[27]" = 0x600654
-    "Bit field mask[27]" = 0xff
-    "Value[27]" = 0x66
-    "Register address[28]" = 0x4104cc
-    "Bit field mask[28]" = 0xffff
-    "Value[28]" = 0x5936
-    "Register address[29]" = 0x60019c
-    "Bit field mask[29]" = 0xff
-    "Value[29]" = 0x0
-    "Register address[30]" = 0x600658
-    "Bit field mask[30]" = 0xff
-    "Value[30]" = 0x83
+    "Value[26]" = 0x83
 }
 ENTRY "PMU Config Flags"
 {
@@ -428,11 +416,13 @@ ENTRY "LE TCA Table"
     "AdrOffset8[2][2]"      =   0x01e4
       "Bitmask8[2][2]"      =   0xff
     "BaseAddress16[0]"      =   0x410000
-        "NumRegs16[0]"      =   2
+        "NumRegs16[0]"      =   3
     "AdrOffset16[0][0]"     =   0x01f8
       "Bitmask16[0][0]"     =   0x3fff
     "AdrOffset16[0][1]"     =   0x01fc
       "Bitmask16[0][1]"     =   0x3fff
+    "AdrOffset16[0][2]"     =   0x038c
+      "Bitmask16[0][1]"     =   0xffff
     "Data8[0][0][0]"        =   0x0c
     "Data8[0][0][1]"        =   0x0c
     "Data8[0][0][2]"        =   0x0c
@@ -501,16 +491,22 @@ ENTRY "LE TCA Table"
     "Data8[5][2][2]"        =   0x24
     "Data16[0][0][0]"       =   0x0145
     "Data16[0][0][1]"       =   0x03af
+    "Data16[0][0][2]"       =   0x6cf7
     "Data16[1][0][0]"       =   0x0145
     "Data16[1][0][1]"       =   0x03cf
+    "Data16[1][0][2]"       =   0x6cf7
     "Data16[2][0][0]"       =   0x0145
     "Data16[2][0][1]"       =   0x03cf
+    "Data16[2][0][2]"       =   0x6cf7
     "Data16[3][0][0]"       =   0x0145
     "Data16[3][0][1]"       =   0x03cf
+    "Data16[3][0][2]"       =   0x6cf7
     "Data16[4][0][0]"       =   0x0154
     "Data16[4][0][1]"       =   0x0435
+    "Data16[4][0][2]"       =   0x6cf7
     "Data16[5][0][0]"       =   0x0154
     "Data16[5][0][1]"       =   0x0435
+    "Data16[5][0][2]"       =   0x6cf7
 }
 ENTRY "LE2 TCA Table"
 {
@@ -665,22 +661,22 @@ ENTRY "LE2 TCA Table"
     "Data8[5][2][2]"        =   0x1c
     "Data16[0][0][0]"       =   0x0145
     "Data16[0][0][1]"       =   0x0370
-    "Data16[0][0][2]"       =   0x6cb7
+    "Data16[0][0][2]"       =   0x6cf7
     "Data16[1][0][0]"       =   0x0145
     "Data16[1][0][1]"       =   0x03b0
-    "Data16[1][0][2]"       =   0x6c77
+    "Data16[1][0][2]"       =   0x6cf7
     "Data16[2][0][0]"       =   0x0145
     "Data16[2][0][1]"       =   0x0390
-    "Data16[2][0][2]"       =   0x6c77
+    "Data16[2][0][2]"       =   0x6cf7
     "Data16[3][0][0]"       =   0x0145
     "Data16[3][0][1]"       =   0x03cf
-    "Data16[3][0][2]"       =   0x6c77
+    "Data16[3][0][2]"       =   0x6cf7
     "Data16[4][0][0]"       =   0x0154
     "Data16[4][0][1]"       =   0x03f0
-    "Data16[4][0][2]"       =   0x6c77
+    "Data16[4][0][2]"       =   0x6cf7
     "Data16[5][0][0]"       =   0x0154
     "Data16[5][0][1]"       =   0x0435
-    "Data16[5][0][2]"       =   0x6c77
+    "Data16[5][0][2]"       =   0x6cf7
 }
 ENTRY "Temperature Correction Algorithm Config"
 {
@@ -845,7 +841,7 @@ ENTRY "Tx Power Table For Class 1.5 Devices With FAB ID"
 {
     "FAB ID" = 0xff
     "Radio Tx power mode" = "Class 1.5 mode"
-    "Power table length"  = 8
+    "Power table length"  = 6
     "Testmode power table length"  = 8
     "Tx power in dB[0]"  = 11
     "Register value[0]"  = 0
@@ -953,200 +949,226 @@ ENTRY "Data" = "CODE_AREA from tier2/Generic/btle/20820FCBGA62_OCF/bld/20819_ram
 	COMMENTED_BYTES
 	{
 		<hex>
-		b6 f5 80 0f 03 d3 30 46 00 f0 50 f9 7c bd 68 46
-		9c f5 ee ff 99 f5 e3 bf 9f f7 b3 fc d4 f5 82 fa
-		ba f5 1c be bd e8 f0 5f 9f f7 8e bf bd e8 70 40
-		00 f0 ca b9 a0 f7 2c f9 18 b1 97 f8 cb 10 21 f6
-		d9 ba 21 f6 dd ba 00 00 20 46 00 f0 27 fa 1b f6
-		e3 ba 00 00 00 f0 40 fa 4f f0 00 09 33 f6 6e bd
-		00 f0 94 fa 00 20 20 70 9d f5 b5 b9 1c b0 00 f0
-		f3 fc bd e8 f0 81 00 00 02 d1 20 68 e7 f5 96 bf
-		28 46 c9 f5 ef fe 70 bd 91 f5 5a fd 08 b1 b6 f5
-		53 bd 00 26 b6 f5 57 bd 04 46 88 46 2d e9 f0 07
-		00 f0 62 fc bd e8 f0 07 00 28 01 d0 91 f5 c8 bc
-		20 46 41 46 00 25 91 f5 90 bc 00 00 00 25 07 b4
-		02 aa 01 a9 68 46 00 f0 6f fc 07 bc 80 46 0a b1
-		0f f6 24 bc 0f f6 1c bc bd e8 10 40 00 f0 7d bc
-		2d e9 f0 41 06 46 3b 48 81 68 09 b1 30 46 88 47
-		4f f4 4e 18 04 2e 02 d0 01 2e 04 d0 35 e0 37 49
-		35 48 08 60 33 e0 36 48 3a 4f 4f f4 44 14 01 68
-		36 4d 21 f0 80 71 01 60 33 49 32 48 08 60 34 49
-		00 20 08 70 38 68 01 21 80 00 14 30 b5 f5 d5 fc
-		31 49 08 60 d8 f8 d8 22 01 46 42 f0 40 02 c8 f8
-		d8 22 00 20 55 f8 04 2b 01 eb 80 03 40 1c 1a 60
-		05 28 f7 d3 00 20 05 e0 54 f8 04 2b 01 eb 80 03
-		40 1c 5a 61 3a 68 90 42 f6 d3 04 2e 0c d1 d8 f8
-		2c 11 40 46 49 07 05 d5 04 21 c0 f8 2c 11 1f 49
-		01 20 08 70 9f f7 9a fb 00 20 bd e8 f0 81 10 b5
-		1b 48 1c 49 0f f6 08 fd 1c 49 1b 48 08 60 00 f0
-		dd fb 0e f6 7f f8 10 b9 1a 49 19 48 08 60 a0 f7
-		bd f8 af f2 d3 00 18 49 08 60 19 49 17 48 09 68
-		48 60 00 f0 1d fa 18 49 16 48 c8 60 17 49 02 20
-		08 70 10 bd 9c f7 20 00 4d 06 27 00 04 6b 20 00
-		dc 0b 20 00 a7 0f 27 00 ec 0b 20 00 04 04 31 00
-		6d 1e 20 00 d4 0b 20 00 64 31 20 00 b0 fc 20 00
-		90 31 20 00 30 00 00 00 2c 07 21 00 64 04 20 00
-		c0 31 20 00 e4 0b 20 00 4c 58 20 00 21 07 27 00
-		6c 71 20 00 18 fa 20 00 68 48 20 00 3e 1c 20 00
-		05 49 10 b5 d1 e9 00 34 01 22 82 40 13 43 44 ea
-		e2 74 c1 e9 00 34 10 bd 88 31 20 00 2d e9 f0 47
-		81 46 15 4d 00 20 08 60 2f 68 0c 46 16 46 98 46
-		2f b1 43 46 32 46 21 46 48 46 b8 47 20 60 40 46
-		b8 f1 05 0f 0a dd 06 28 08 d0 b8 f1 08 0f 05 d1
-		16 2e 03 d1 68 68 20 60 a8 68 60 60 20 68 00 28
-		07 d1 43 46 32 46 21 46 48 46 bd e8 f0 47 9d f5
-		dc be bd e8 f0 87 00 00 a8 f7 20 00 7c b5 1b 4c
-		05 46 e0 6a 44 f2 03 61 20 ea 01 00 e0 62 68 46
-		9c f5 96 fe dd e9 00 21 50 19 41 f1 00 01 40 0b
-		40 ea c1 40 62 69 49 0b 05 06 22 f4 7f 42 42 ea
-		15 45 08 23 65 61 a2 69 00 0a 40 ea 01 60 6f f3
-		0f 02 80 b2 10 43 a0 61 e0 6a 40 f4 42 40 e0 62
-		c4 f8 7c 31 04 20 20 60 e0 6a 40 f0 01 00 e0 62
-		60 6b 20 f0 30 00 60 63 7c bd 00 00 2c 81 33 00
-		10 b5 07 48 07 49 08 4c 00 68 08 4a 10 b1 08 48
-		00 68 00 e0 07 48 ba f5 30 fc 20 70 10 bd 00 00
-		b4 f7 20 00 44 49 20 00 64 71 20 00 8c 5d 20 00
-		d8 f7 20 00 dc f7 20 00 2d e9 f0 41 00 f1 09 06
-		00 27 3d 46 80 89 0b f6 a6 ff 04 00 0c d0 15 48
-		00 78 10 f0 08 0f 01 d0 01 25 06 e0 94 f8 dd 00
-		00 28 f9 d0 0c 27 00 e0 02 27 30 88 39 46 a1 f5
-		4c f8 00 2d 14 d0 e0 6b 81 04 05 d5 39 46 20 46
-		bd e8 f0 41 33 f6 92 bd 40 f4 80 60 e0 63 a0 6c
-		40 f0 08 00 a0 64 20 46 bd e8 f0 41 1b f6 54 b8
-		bd e8 f0 81 e0 14 20 00 70 b5 04 46 05 f6 42 fc
-		f0 b3 94 f8 57 00 41 07 01 d5 00 07 04 d4 20 46
-		bd e8 70 40 00 f0 4a b8 23 4d e1 69 68 68 c1 f3
-		c0 31 00 7b c0 f3 00 00 88 42 08 d0 20 46 a6 f5
-		2e fb 94 f8 a3 00 40 f0 08 00 84 f8 a3 00 69 68
-		10 22 0d 31 04 f5 90 70 e3 f5 35 ff e0 69 01 04
-		03 d4 20 46 3f f6 47 fb 05 e0 40 f3 c0 31 49 1c
-		20 46 3e f6 a3 f8 20 46 05 f6 12 fb 00 28 15 d0
-		68 68 e1 69 00 7b c1 f3 c0 31 c0 f3 00 00 00 e0
-		0d e0 88 42 0a d0 b4 f8 e6 00 c0 f3 c3 01 02 29
-		04 d0 20 f0 78 00 20 30 a4 f8 e6 00 70 bd 20 46
-		bd e8 70 40 02 f6 34 bb e4 c8 20 00 06 49 4b 68
-		1a 7b 51 08 7f 29 02 d1 59 7b 41 f0 80 01 c2 f3
-		00 02 24 23 02 f6 e3 ba e4 c8 20 00 10 b5 04 46
-		c0 6b 81 04 12 d5 40 05 07 d5 00 21 20 46 33 f6
-		0d fd e0 6b 20 f4 80 60 e0 63 60 6c 20 f0 08 00
-		60 64 20 46 bd e8 10 40 1a f6 ce bf 20 46 bd e8
-		10 40 0e 21 29 f6 1a bb 30 b5 0c 4a 00 21 0a 4b
-		14 78 0e e0 01 eb c1 02 03 eb 82 02 95 88 10 2d
-		06 d1 15 7c d2 88 b5 eb d2 0f 01 d8 00 20 30 bd
-		49 1c 8c 42 ee d8 30 bd 74 04 20 00 60 58 20 00
-		1b 48 01 68 41 f0 03 01 01 60 01 68 21 f4 e0 21
-		01 60 01 68 21 f4 c0 11 01 60 16 48 00 23 20 22
-		01 78 15 48 00 78 3a f6 d5 bb 11 49 0a 68 42 f0
-		03 02 0a 60 0a 68 42 f4 e0 22 0a 60 0a 68 22 f4
-		c0 12 0a 60 80 b1 90 f8 84 21 92 07 03 d5 0a 68
-		42 f4 80 12 0a 60 90 f8 85 01 80 07 03 d5 08 68
-		40 f4 00 20 08 60 70 47 08 68 40 f4 c0 10 f9 e7
-		14 87 31 00 2c 31 20 00 2d 31 20 00 03 49 ca 78
-		89 79 c2 f3 00 02 00 f0 41 b9 00 00 a8 0b 20 00
-		10 b5 0f f6 3a fa 09 28 06 d0 4f f4 b0 00 01 68
-		21 f0 03 01 89 1c 01 60 10 bd 2d e9 f0 47 80 46
-		02 f1 17 00 89 46 15 46 1f 46 00 26 80 b2 0c f6
-		f7 ff 04 00 11 d0 65 80 0d 20 a0 80 00 20 20 80
-		e0 80 04 f1 15 00 2a 46 49 46 e3 f5 4c fe 3a 46
-		21 46 40 46 c0 f5 a0 fe 06 46 30 46 bd e8 f0 87
-		70 47 0d f6 d8 b8 9b f5 88 bb 00 00 49 49 08 70
-		00 20 88 60 c8 60 48 60 70 47 70 b5 45 4d 04 46
-		00 20 29 78 00 29 23 d0 4f f4 7a 76 84 b1 69 68
-		39 b1 0e f6 37 fe 32 46 00 23 2a f6 7f fc 69 68
-		40 1a 3c 49 08 31 01 2c 09 d0 02 2c 0b d0 0d e0
-		0e f6 28 fe 32 46 00 23 2a f6 70 fc 07 e0 0a 68
-		10 44 08 60 02 e0 4a 68 10 44 48 60 00 20 68 60
-		70 bd 30 49 0a 78 00 2a 07 d0 18 b1 8a 68 02 60
-		ca 68 42 60 00 20 88 60 c8 60 70 47 2d e9 f0 47
-		29 4c 05 46 88 46 21 6f 60 6e 00 23 a0 fb 01 02
-		40 f2 e2 41 a0 fb 01 67 02 fb 01 71 00 fb 03 11
-		df f8 88 90 30 46 4a 46 e8 23 2a f6 3f fc 28 60
-		21 6f a0 6e 00 23 a0 fb 01 02 40 f2 e2 41 a0 fb
-		01 67 02 fb 01 71 00 fb 03 11 30 46 4a 46 e8 23
-		2a f6 2c fc c8 f8 00 00 61 6e 01 20 11 b1 29 68
-		01 b9 28 60 a1 6e 00 29 05 d0 d8 f8 00 10 00 29
-		01 d1 c8 f8 00 00 bd e8 f0 87 63 f6 48 b8 10 b5
-		04 46 00 20 ff f7 81 ff 20 46 10 bd 01 20 7c e7
-		af f2 15 01 06 48 41 60 af f2 0f 01 81 60 92 f5
-		1d be 00 00 90 fc 20 00 98 1e 20 00 00 10 a5 d4
-		90 31 20 00 1c b5 68 46 9c f5 52 fc 2b 48 dd e9
-		00 21 d0 e9 00 30 5a 40 41 40 0a 43 1b d0 05 f6
-		f0 fd 26 49 02 20 08 39 08 70 25 48 0e f6 6d ff
-		24 49 03 20 08 70 24 49 08 70 24 48 01 68 21 f0
-		07 01 49 1c 01 60 9f f5 a7 fd b0 f5 80 fb 20 49
-		20 20 08 70 1c bd 1f 49 19 48 0e f6 3b ff 1c bd
-		1a 48 10 b5 00 68 c0 f3 02 00 01 28 24 d0 13 48
-		08 38 01 78 00 29 1f d1 01 21 01 70 16 48 01 6b
-		21 f0 03 01 01 63 01 68 41 f0 04 01 01 60 01 6b
-		41 f0 01 01 01 63 05 f6 be ff 08 48 9c f5 08 fc
-		00 22 af f2 9f 01 06 48 0e f6 d7 fc bd e8 10 40
-		08 49 03 48 0e f6 0e bf 10 bd 00 00 a8 fc 20 00
-		a0 31 20 00 bb 0b 20 00 bc 0b 20 00 dc 0b 20 00
-		e9 58 20 00 20 a1 07 00 30 81 33 00 70 b5 05 46
+		b6 f5 80 0f 03 d3 30 46 00 f0 a6 f9 7c bd 68 46
+		9c f5 ee ff 99 f5 e3 bf 9f f7 b7 fc d4 f5 82 fa
+		ba f5 1c be bd e8 f0 5f 9f f7 92 bf bd e8 70 40
+		00 f0 20 ba a0 f7 30 f9 18 b1 97 f8 cb 10 21 f6
+		d9 ba 21 f6 dd ba 00 00 20 46 00 f0 7d fa 1b f6
+		e3 ba 00 00 00 f0 96 fa 4f f0 00 09 33 f6 6e bd
+		00 f0 ea fa 00 20 20 70 9d f5 b5 b9 1c b0 00 f0
+		b7 fd bd e8 f0 81 00 00 29 78 8d f8 12 10 4f f0
+		00 01 b8 f5 2d b9 00 00 02 d1 20 68 e7 f5 8e bf
+		28 46 c9 f5 e7 fe 70 bd 06 d1 0f b4 00 f0 f9 fb
+		04 46 4f f0 00 05 0f bc b0 f5 22 bf 04 2c 03 d1
+		00 f0 f6 fb 28 46 70 bd ab f5 2c ff b0 f5 34 bf
+		bd e8 10 40 00 f0 f7 bb 91 f5 3a fd 08 b1 b6 f5
+		33 bd 00 26 b6 f5 37 bd 09 88 4f ea 51 01 8a 42
+		01 d3 c1 f5 b6 bd c1 f5 b6 bd 07 b4 20 46 c1 f5
+		95 fd 07 bc 70 bd 00 00 bd e8 10 40 00 f0 a6 bc
+		04 46 88 46 2d e9 f0 07 00 f0 be fc bd e8 f0 07
+		00 28 01 d0 91 f5 94 bc 20 46 41 46 00 25 91 f5
+		5c bc 00 00 f0 b5 4f f4 4e 11 d1 f8 60 21 22 f0
+		0f 02 c1 f8 60 21 04 28 02 d1 00 f0 c5 fc f0 bd
+		ab f5 ef be 00 25 07 b4 02 aa 01 a9 68 46 00 f0
+		ef fc 07 bc 80 46 0a b1 0f f6 e0 bb 0f f6 d8 bb
+		bd e8 10 40 00 f0 fd bc 2d e9 f0 47 06 46 42 48
+		81 68 09 b1 30 46 88 47 4f f0 01 09 4f f4 4e 17
+		04 2e 02 d0 01 2e 07 d0 3b e0 3d 48 3b 49 01 60
+		3c 49 81 f8 00 90 36 e0 3b 48 df f8 00 81 4f f4
+		44 14 01 68 3b 4d 21 f0 80 71 01 60 38 49 37 48
+		08 60 39 49 00 20 08 70 d8 f8 00 00 01 21 80 00
+		14 30 b5 f5 8a fc 36 49 08 60 01 46 d7 f8 d8 02
+		40 f0 40 00 c7 f8 d8 02 00 20 55 f8 04 2b 01 eb
+		80 03 40 1c 1a 60 05 28 f7 d3 00 20 42 46 05 e0
+		54 f8 04 3b 01 eb 80 05 40 1c 6b 61 13 68 98 42
+		f6 d3 04 2e 11 d1 d7 f8 2c 01 40 07 05 d5 04 20
+		c7 f8 2c 01 23 49 81 f8 00 90 9f f7 53 fb 22 48
+		00 68 40 03 01 d5 00 f0 11 fb 00 20 bd e8 f0 87
+		10 b5 1e 48 1e 49 0f f6 b7 fc 1f 49 1d 48 08 60
+		00 f0 1c fc 0e f6 2e f8 10 b9 1d 49 1b 48 08 60
+		a0 f7 72 f9 af f2 ef 00 1a 49 08 60 1b 49 1a 48
+		09 68 48 60 00 f0 22 fa 1a 49 19 48 c8 60 1a 49
+		02 20 08 70 10 bd 00 00 9c f7 20 00 f9 06 27 00
+		04 6b 20 00 91 1e 20 00 dc 0b 20 00 2f 11 27 00
+		ec 0b 20 00 04 04 31 00 6d 1e 20 00 d4 0b 20 00
+		64 31 20 00 b8 fc 20 00 a0 0b 20 00 90 31 20 00
+		30 00 00 00 38 09 21 00 64 04 20 00 c0 31 20 00
+		e4 0b 20 00 4c 58 20 00 cd 07 27 00 6c 71 20 00
+		18 fa 20 00 68 48 20 00 3e 1c 20 00 05 49 10 b5
+		d1 e9 00 34 01 22 82 40 13 43 44 ea e2 74 c1 e9
+		00 34 10 bd 88 31 20 00 2d e9 f0 47 81 46 15 4d
+		00 20 08 60 2f 68 0c 46 16 46 98 46 2f b1 43 46
+		32 46 21 46 48 46 b8 47 20 60 40 46 b8 f1 05 0f
+		0a dd 06 28 08 d0 b8 f1 08 0f 05 d1 16 2e 03 d1
+		68 68 20 60 a8 68 60 60 20 68 00 28 07 d1 43 46
+		32 46 21 46 48 46 bd e8 f0 47 9d f5 86 be bd e8
+		f0 87 00 00 a8 f7 20 00 7c b5 1b 4c 05 46 e0 6a
+		44 f2 03 61 20 ea 01 00 e0 62 68 46 9c f5 40 fe
+		dd e9 00 21 50 19 41 f1 00 01 40 0b 40 ea c1 40
+		62 69 49 0b 05 06 22 f4 7f 42 42 ea 15 45 08 23
+		65 61 a2 69 00 0a 40 ea 01 60 6f f3 0f 02 80 b2
+		10 43 a0 61 e0 6a 40 f4 42 40 e0 62 c4 f8 7c 31
+		04 20 20 60 e0 6a 40 f0 01 00 e0 62 60 6b 20 f0
+		30 00 60 63 7c bd 00 00 2c 81 33 00 10 b5 07 48
+		07 49 08 4c 00 68 08 4a 10 b1 08 48 00 68 00 e0
+		07 48 ba f5 da fb 20 70 10 bd 00 00 b4 f7 20 00
+		44 49 20 00 64 71 20 00 8c 5d 20 00 d8 f7 20 00
+		dc f7 20 00 2d e9 f0 41 00 f1 09 06 00 27 3d 46
+		80 89 0b f6 50 ff 04 00 0c d0 15 48 00 78 10 f0
+		08 0f 01 d0 01 25 06 e0 94 f8 dd 00 00 28 f9 d0
+		0c 27 00 e0 02 27 30 88 39 46 a0 f5 f6 ff 00 2d
+		14 d0 e0 6b 81 04 05 d5 39 46 20 46 bd e8 f0 41
+		33 f6 3c bd 40 f4 80 60 e0 63 a0 6c 40 f0 08 00
+		a0 64 20 46 bd e8 f0 41 1a f6 fe bf bd e8 f0 81
+		e0 14 20 00 70 b5 04 46 05 f6 ec fb f0 b3 94 f8
+		57 00 41 07 01 d5 00 07 04 d4 20 46 bd e8 70 40
+		00 f0 4a b8 23 4d e1 69 68 68 c1 f3 c0 31 00 7b
+		c0 f3 00 00 88 42 08 d0 20 46 a6 f5 d8 fa 94 f8
+		a3 00 40 f0 08 00 84 f8 a3 00 69 68 10 22 0d 31
+		04 f5 90 70 e3 f5 df fe e0 69 01 04 03 d4 20 46
+		3f f6 f1 fa 05 e0 40 f3 c0 31 49 1c 20 46 3e f6
+		4d f8 20 46 05 f6 bc fa 00 28 15 d0 68 68 e1 69
+		00 7b c1 f3 c0 31 c0 f3 00 00 00 e0 0d e0 88 42
+		0a d0 b4 f8 e6 00 c0 f3 c3 01 02 29 04 d0 20 f0
+		78 00 20 30 a4 f8 e6 00 70 bd 20 46 bd e8 70 40
+		02 f6 de ba e4 c8 20 00 06 49 4b 68 1a 7b 51 08
+		7f 29 02 d1 59 7b 41 f0 80 01 c2 f3 00 02 24 23
+		02 f6 8d ba e4 c8 20 00 10 b5 04 46 c0 6b 81 04
+		12 d5 40 05 07 d5 00 21 20 46 33 f6 b7 fc e0 6b
+		20 f4 80 60 e0 63 60 6c 20 f0 08 00 60 64 20 46
+		bd e8 10 40 1a f6 78 bf 20 46 bd e8 10 40 0e 21
+		29 f6 c4 ba 30 b5 0c 4a 00 21 0a 4b 14 78 0e e0
+		01 eb c1 02 03 eb 82 02 95 88 10 2d 06 d1 15 7c
+		d2 88 b5 eb d2 0f 01 d8 00 20 30 bd 49 1c 8c 42
+		ee d8 30 bd 74 04 20 00 60 58 20 00 1b 48 01 68
+		41 f0 03 01 01 60 01 68 21 f4 e0 21 01 60 01 68
+		21 f4 c0 11 01 60 16 48 00 23 20 22 01 78 15 48
+		00 78 3a f6 7f bb 11 49 0a 68 42 f0 03 02 0a 60
+		0a 68 42 f4 e0 22 0a 60 0a 68 22 f4 c0 12 0a 60
+		80 b1 90 f8 84 21 92 07 03 d5 0a 68 42 f4 80 12
+		0a 60 90 f8 85 01 80 07 03 d5 08 68 40 f4 00 20
+		08 60 70 47 08 68 40 f4 c0 10 f9 e7 14 87 31 00
+		2c 31 20 00 2d 31 20 00 03 49 ca 78 89 79 c2 f3
+		00 02 00 f0 63 b9 00 00 a8 0b 20 00 10 b5 0f f6
+		e4 f9 09 28 06 d0 4f f4 b0 00 01 68 21 f0 03 01
+		89 1c 01 60 10 bd 2d e9 f0 47 80 46 02 f1 17 00
+		89 46 15 46 1f 46 00 26 80 b2 0c f6 a1 ff 04 00
+		11 d0 65 80 0d 20 a0 80 00 20 20 80 e0 80 04 f1
+		15 00 2a 46 49 46 e3 f5 f6 fd 3a 46 21 46 40 46
+		c0 f5 4a fe 06 46 30 46 bd e8 f0 87 70 47 0d f6
+		82 b8 9b f5 32 bb 00 00 49 49 08 70 00 20 88 60
+		c8 60 48 60 70 47 70 b5 45 4d 04 46 00 20 29 78
+		00 29 23 d0 4f f4 7a 76 84 b1 69 68 39 b1 0e f6
+		e1 fd 32 46 00 23 2a f6 29 fc 69 68 40 1a 3c 49
+		08 31 01 2c 09 d0 02 2c 0b d0 0d e0 0e f6 d2 fd
+		32 46 00 23 2a f6 1a fc 07 e0 0a 68 10 44 08 60
+		02 e0 4a 68 10 44 48 60 00 20 68 60 70 bd 30 49
+		0a 78 00 2a 07 d0 18 b1 8a 68 02 60 ca 68 42 60
+		00 20 88 60 c8 60 70 47 2d e9 f0 47 29 4c 05 46
+		88 46 21 6f 60 6e 00 23 a0 fb 01 02 40 f2 e2 41
+		a0 fb 01 67 02 fb 01 71 00 fb 03 11 df f8 88 90
+		30 46 4a 46 e8 23 2a f6 e9 fb 28 60 21 6f a0 6e
+		00 23 a0 fb 01 02 40 f2 e2 41 a0 fb 01 67 02 fb
+		01 71 00 fb 03 11 30 46 4a 46 e8 23 2a f6 d6 fb
+		c8 f8 00 00 61 6e 01 20 11 b1 29 68 01 b9 28 60
+		a1 6e 00 29 05 d0 d8 f8 00 10 00 29 01 d1 c8 f8
+		00 00 bd e8 f0 87 62 f6 f2 bf 10 b5 04 46 00 20
+		ff f7 81 ff 20 46 10 bd 01 20 7c e7 af f2 15 01
+		06 48 41 60 af f2 0f 01 81 60 92 f5 c7 bd 00 00
+		94 fc 20 00 98 1e 20 00 00 10 a5 d4 90 31 20 00
+		1c b5 68 46 9c f5 fc fb 3b 48 dd e9 00 21 d0 e9
+		00 30 5a 40 41 40 0a 43 1b d0 37 49 02 20 08 39
+		08 70 36 48 0e f6 19 ff 35 49 03 20 08 70 35 49
+		08 70 35 48 01 68 21 f0 07 01 49 1c 01 60 9f f5
+		53 fd b0 f5 2c fb 31 49 20 20 08 70 05 f6 81 fd
+		1c bd 2f 49 29 48 0e f6 e5 fe 1c bd 10 b5 05 f6
+		82 ff 25 49 01 20 08 39 08 70 2a 48 01 6b 21 f0
+		03 01 01 63 01 68 41 f0 04 01 01 60 01 6b 41 f0
+		01 01 01 63 1c 48 9c f5 bb fb 00 22 af f2 8f 01
+		1a 48 0e f6 8a fc bd e8 10 40 1d 49 17 48 0e f6
+		c1 be 10 b5 b0 f5 8b fb 04 28 00 d0 02 20 10 bd
+		70 b5 14 4d 04 46 28 78 a0 42 03 d0 20 46 ab f5
+		31 fb 2c 70 70 bd 4f f4 48 10 00 69 12 49 00 f0
+		0f 00 05 28 0a 68 0a d0 01 eb 80 00 00 68 82 42
+		04 d1 09 4a 12 68 52 07 00 d0 48 68 70 47 02 48
+		08 38 40 88 f3 e7 00 00 b0 fc 20 00 a0 31 20 00
+		bb 0b 20 00 bc 0b 20 00 dc 0b 20 00 e9 58 20 00
+		20 a1 07 00 30 81 33 00 c8 0b 20 00 70 b5 05 46
 		4f f4 4e 14 28 29 09 d2 12 b1 40 f2 09 22 01 e0
 		40 f2 0b 42 04 eb 81 00 c0 f8 00 22 00 20 95 f5
-		11 ff 28 46 99 f5 0a fc 04 f5 98 74 20 68 40 f0
-		01 00 20 60 4f f4 c8 70 8f f5 85 fe 20 68 20 f0
+		99 fe 28 46 99 f5 92 fb 04 f5 98 74 20 68 40 f0
+		01 00 20 60 4f f4 c8 70 8f f5 0d fe 20 68 20 f0
 		01 00 20 60 20 6b 20 f0 30 00 40 f0 10 00 20 63
 		a0 6a 20 f4 c0 60 a0 62 a0 6a 20 f0 03 00 a0 62
 		20 69 20 f4 7f 40 20 61 00 20 60 61 e0 69 20 f0
-		01 00 e0 61 01 20 95 f5 57 fe a0 69 20 f4 80 70
+		01 00 e0 61 01 20 95 f5 df fd a0 69 20 f4 80 70
 		a0 61 e0 6a 20 f4 80 40 e0 62 70 bd 70 b5 0c 46
-		15 46 50 b1 4f f4 7a 71 48 43 00 21 b0 f5 9e fa
+		15 46 50 b1 4f f4 7a 71 48 43 00 21 b0 f5 26 fa
 		2a 46 21 46 bd e8 70 40 a8 e7 4f f0 ff 30 f7 e7
-		10 b5 0c 00 06 d0 40 b1 02 21 fb f5 eb f8 60 b1
+		10 b5 0c 00 06 d0 40 b1 02 21 fb f5 73 f8 60 b1
 		5d 30 03 e0 41 f6 a8 70 10 bd 06 48 28 b1 01 68
 		21 60 40 68 60 60 00 20 10 bd 41 f6 aa 70 10 bd
 		e6 e7 00 00 56 88 20 00 10 b5 11 4c 00 28 1e d0
 		01 79 a1 71 41 79 61 71 80 79 20 71 60 1c b7 f5
-		fd fe 04 f1 20 00 04 46 0c f6 94 fb 09 48 90 f8
+		85 fe 04 f1 20 00 04 46 0c f6 1c fb 09 48 90 f8
 		09 05 00 28 0b d0 08 49 08 68 b0 f8 72 20 00 2a
-		05 d0 20 46 bd e8 10 40 33 21 0c f6 62 bb 10 bd
-		fc 89 20 00 38 85 20 00 34 5f 20 00 10 48 0f 49
+		05 d0 20 46 bd e8 10 40 33 21 0c f6 ea ba 10 bd
+		fc 89 20 00 38 85 20 00 34 5f 20 00 09 48 10 b5
+		b0 f8 40 00 08 4c 40 04 00 0c a4 f8 84 00 40 00
+		9b f5 36 f8 c4 f8 80 00 00 28 01 d1 a4 f8 84 00
+		10 bd 00 00 68 93 20 00 0c 94 20 00 10 48 0f 49
 		01 60 10 49 41 60 70 47 70 b5 04 46 00 26 10 f0
-		03 00 02 d0 c0 f1 04 00 04 44 61 b1 0d f6 99 ff
+		03 00 02 d0 c0 f1 04 00 04 44 61 b1 0d f6 09 ff
 		07 49 d1 e9 00 52 52 1b a2 42 02 d9 2a 19 2e 46
-		0a 60 0d f6 92 ff 30 46 70 bd 00 00 1c 10 27 00
-		b4 fc 20 00 00 40 27 00 2d e9 f0 41 06 46 23 48
-		00 25 15 60 00 68 0f 46 14 46 c0 01 0b d5 0f f6
-		2c f8 09 28 01 d1 01 20 20 60 02 20 30 70 1c 48
-		05 70 09 20 38 70 bd e8 f0 81 10 b5 19 4a 4f f4
-		b0 03 4f f4 48 14 09 28 16 d0 12 d2 20 68 20 f4
-		a0 40 20 60 10 68 20 f0 07 00 10 60 10 68 40 07
-		fc d1 10 60 18 68 20 f0 03 00 80 1c 18 60 21 f4
-		a0 41 21 60 01 20 10 bd 4f f0 0f 10 10 60 10 68
-		c0 43 40 07 fb d1 18 68 40 f0 03 00 18 60 41 f4
-		80 51 08 05 ed d5 41 f4 80 41 ea e7 dc 0b 20 00
-		59 59 20 00 b8 04 32 00 10 b5 2d f6 b3 fd 01 49
-		08 70 10 bd 72 74 20 00 f0 b5 46 18 9b b0 04 46
-		b6 f5 80 2f 33 d8 91 b3 d3 f5 f5 f8 01 28 2e d1
-		00 20 66 4d 05 90 04 90 0a 90 28 68 08 90 0d f6
-		18 ff 07 46 0e f6 18 fe 4f f4 7a 71 b0 fb f1 f0
-		29 68 5f 4d c1 f8 48 01 0a e0 60 0a 03 90 28 68
-		40 1c 28 60 68 46 da f5 a2 f9 58 b1 04 f5 00 74
-		b4 42 f2 d3 38 46 0d f6 00 ff d3 f5 f5 f8 01 20
-		1b b0 f0 bd d3 f5 f0 f8 38 46 0d f6 f6 fe 00 20
-		f6 e7 2d e9 f0 4f 07 46 00 25 9d b0 88 46 16 46
-		80 07 41 d1 b8 19 b0 f5 80 2f 3d d8 b6 b3 d3 f5
-		b2 f8 01 28 38 d1 0d f6 dc fe 83 46 00 20 43 4c
-		05 90 04 90 0a 90 20 68 08 90 0e f6 d5 fd 4f f4
-		7a 71 b0 fb f1 f0 21 68 00 24 4f f4 00 7a c1 f8
-		48 01 31 e0 38 19 40 0a a6 eb 04 09 52 46 03 90
-		91 45 1d d2 37 48 00 78 88 b1 1b a9 10 46 d3 f5
-		65 f8 05 00 0b d0 51 46 0f f6 2e f8 08 eb 04 01
-		4a 46 28 46 e3 f5 97 fb 09 95 0c e0 04 e0 d3 f5
-		a3 f8 58 46 0d f6 a9 fe 00 20 1d b0 bd e8 f0 8f
-		08 eb 04 00 09 90 26 48 01 68 49 1c 01 60 68 46
-		da f5 3e f9 04 f5 00 74 b4 42 cb d3 25 b1 9d f8
-		6c 10 28 46 d3 f5 83 f8 d3 f5 86 f8 58 46 0d f6
-		8c fe 01 20 e1 e7 70 b5 02 25 1b 4c 0c 28 1a d2
-		df e8 00 f0 06 06 15 1a 15 1a 15 1a 15 1a 24 26
-		20 78 10 b1 01 28 03 d0 05 e0 da f5 c4 f8 01 e0
-		da f5 e3 f8 25 70 bd e8 70 40 ff f7 e1 bc da f5
-		d1 f8 01 20 20 70 70 bd da f5 b5 f8 ff f7 d8 fc
-		25 70 bd e8 70 40 01 20 da f5 f3 b8 00 20 00 e0
-		02 20 bd e8 70 40 ff f7 08 bd 00 00 a8 58 20 00
-		80 63 20 00 60 04 20 00 e8 0b 20 00
+		0a 60 0d f6 02 ff 30 46 70 bd 00 00 b8 11 27 00
+		bc fc 20 00 00 40 27 00 04 28 26 d1 13 48 01 68
+		41 f0 04 01 01 60 01 6b 40 f2 05 22 41 ea 02 01
+		01 63 81 69 21 f4 60 71 81 61 81 69 41 f4 20 71
+		81 61 0b 49 4f f0 40 00 08 70 0a 49 4b f2 1b 70
+		08 60 09 49 08 60 4f f4 48 11 4f f0 05 00 08 61
+		06 48 01 68 21 f0 01 01 01 60 70 47 30 81 33 00
+		b8 0b 20 00 c4 0b 20 00 98 58 20 00 28 15 32 00
+		2d e9 f0 41 06 46 23 48 00 25 15 60 00 68 0f 46
+		14 46 c0 01 0b d5 0e f6 68 ff 09 28 01 d1 01 20
+		20 60 02 20 30 70 1c 48 05 70 09 20 38 70 bd e8
+		f0 81 10 b5 19 4a 4f f4 b0 03 4f f4 48 14 09 28
+		16 d0 12 d2 20 68 20 f4 a0 40 20 60 10 68 20 f0
+		07 00 10 60 10 68 40 07 fc d1 10 60 18 68 20 f0
+		03 00 80 1c 18 60 21 f4 a0 41 21 60 01 20 10 bd
+		4f f0 0f 10 10 60 10 68 c0 43 40 07 fb d1 18 68
+		40 f0 03 00 18 60 41 f4 80 51 08 05 ed d5 41 f4
+		80 41 ea e7 dc 0b 20 00 59 59 20 00 b8 04 32 00
+		10 b5 2d f6 ef fc 01 49 08 70 10 bd 72 74 20 00
+		f0 b5 46 18 9b b0 04 46 b6 f5 80 2f 33 d8 91 b3
+		d3 f5 31 f8 01 28 2e d1 00 20 6a 4d 05 90 04 90
+		0a 90 28 68 08 90 0d f6 54 fe 07 46 0e f6 54 fd
+		4f f4 7a 71 b0 fb f1 f0 29 68 63 4d c1 f8 48 01
+		0a e0 60 0a 03 90 28 68 40 1c 28 60 68 46 da f5
+		de f8 58 b1 04 f5 00 74 b4 42 f2 d3 38 46 0d f6
+		3c fe d3 f5 31 f8 01 20 1b b0 f0 bd d3 f5 2c f8
+		38 46 0d f6 32 fe 00 20 f6 e7 2d e9 f0 4f 07 46
+		00 25 9d b0 88 46 16 46 80 07 41 d1 b8 19 b0 f5
+		80 2f 3d d8 b6 b3 d2 f5 ee ff 01 28 38 d1 0d f6
+		18 fe 83 46 00 20 47 4c 05 90 04 90 0a 90 20 68
+		08 90 0e f6 11 fd 4f f4 7a 71 b0 fb f1 f0 21 68
+		00 24 4f f4 00 7a c1 f8 48 01 31 e0 38 19 40 0a
+		a6 eb 04 09 52 46 03 90 91 45 1d d2 3b 48 00 78
+		88 b1 1b a9 10 46 d2 f5 a1 ff 05 00 0b d0 51 46
+		0e f6 6a ff 08 eb 04 01 4a 46 28 46 e3 f5 d3 fa
+		09 95 0c e0 04 e0 d2 f5 df ff 58 46 0d f6 e5 fd
+		00 20 1d b0 bd e8 f0 8f 08 eb 04 00 09 90 2a 48
+		01 68 49 1c 01 60 68 46 da f5 7a f8 04 f5 00 74
+		b4 42 cb d3 25 b1 9d f8 6c 10 28 46 d2 f5 bf ff
+		d2 f5 c2 ff 58 46 0d f6 c8 fd 01 20 e1 e7 2d e9
+		f0 41 02 25 1e 4f 1f 4c 4f f4 48 16 0c 28 1c d2
+		df e8 00 f0 06 06 15 1d 15 1d 15 1d 15 1d 28 2a
+		20 78 10 b1 01 28 03 d0 05 e0 d9 f5 fc ff 01 e0
+		da f5 1b f8 25 70 bd e8 f0 41 ff f7 6f bc da f5
+		09 f8 01 20 20 70 30 69 38 60 bd e8 f0 81 d9 f5
+		ea ff ff f7 63 fc 25 70 01 20 da f5 2a f8 38 68
+		30 61 f2 e7 00 20 00 e0 02 20 bd e8 f0 41 ff f7
+		92 bc 00 00 a8 58 20 00 80 63 20 00 60 04 20 00
+		8c fc 20 00 e8 0b 20 00
 	} END_COMMENTED_BYTES
 }
 ENTRY "Data" = "SRAM_AREA from tier2/Generic/btle/20820FCBGA62_OCF/bld/20819_ram_ext.elf"
@@ -1157,7 +1179,7 @@ ENTRY "Data" = "SRAM_AREA from tier2/Generic/btle/20820FCBGA62_OCF/bld/20819_ram
 	{
 		<hex>
 		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-		59 07 27 00 05 00 00 00 00 00 00 00 00 00 00 00
+		05 08 27 00 05 00 00 00 00 00 00 00 00 00 00 00
 		00 00 00 00 00 00 00 00 0a 07 00 00 05 07 00 00
 		0d db 00 00 08 db 00 00 00 ff 00 00 00 00 00 00
 		fc 02 60 00 0c 00 00 00 ff 00 00 00 00 00 00 00
@@ -1231,49 +1253,50 @@ ENTRY "Data" = "SRAM_AREA from tier2/Generic/btle/20820FCBGA62_OCF/bld/20819_ram
 		00 00 00 00 ff 00 00 00 00 00 00 00 d4 02 60 00
 		00 00 00 00 ff 00 00 00 00 00 00 00 d8 02 60 00
 		00 00 00 00 ff 00 00 00 00 00 00 00 07 57 0c 00
-		bc bc bc bc 43 43 43 43 00 00 00 00 29 00 21 00
+		bc bc bc bc 43 43 43 43 00 00 00 00 31 00 21 00
 		bc bc bc bc 43 43 43 43 00 00 00 00 00 00 00 00
 		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 		32 00 00 00 64 00 00 00 0a 00 00 00 96 00 00 00
 		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+		00 00 00 00 00 00 00 00 00 00 00 00 00 00 fa 00
 		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+		00 00 00 00 00 00 00 00
 	} END_COMMENTED_BYTES
 }
 ENTRY "Data" = "OVERFLOW_PATCH_CODE from tier2/Generic/btle/20820FCBGA62_OCF/bld/20819_ram_ext.elf"
 {
-	"Address" = 0x20FCBC
+	"Address" = 0x20FCC4
 	"Data" =
 	COMMENTED_BYTES
 	{
 		<hex>
 		00 b5 0e 48 9b b0 01 68 00 29 14 d0 40 68 00 28
 		11 d0 0b 4b 05 22 1a 80 0a 4a 10 60 0a 4a 11 60
-		00 21 05 91 08 90 04 91 0a 91 68 46 55 f6 c7 fb
+		00 21 05 91 08 90 04 91 0a 91 68 46 55 f6 c3 fb
 		06 49 01 20 08 70 1b b0 00 bd 00 00 9c f7 20 00
 		a4 58 20 00 a8 58 20 00 b0 58 20 00 a2 58 20 00
 		70 b5 05 46 01 28 01 d0 10 48 00 e0 10 48 00 68
-		1b f6 1d f9 11 f6 6f f8 0e 4c 20 68 00 28 28 46
-		02 d0 e1 68 88 47 01 e0 11 f6 58 f8 20 68 38 b1
+		1b f6 19 f9 11 f6 6b f8 0e 4c 20 68 00 28 28 46
+		02 d0 e1 68 88 47 01 e0 11 f6 54 f8 20 68 38 b1
 		09 48 a1 68 80 68 88 47 60 68 bd e8 70 40 00 47
-		28 46 bd e8 70 40 11 f6 03 b8 00 00 18 09 20 00
+		28 46 bd e8 70 40 10 f6 ff bf 00 00 18 09 20 00
 		20 09 20 00 b4 f7 20 00 10 0e 20 00 a6 48 01 78
 		00 29 07 d1 a5 49 0a 68 82 80 c9 6c 41 80 4f f0
 		01 01 01 70 70 47 a0 48 01 78 01 29 07 d1 9f 49
 		82 88 0a 60 42 88 ca 64 4f f0 00 01 01 70 70 47
-		2d e9 f8 4f 05 46 4f f0 00 08 66 f6 d6 fe 6e f6
-		82 ff 00 90 96 48 22 21 01 60 4f f4 46 19 00 27
+		2d e9 f8 4f 05 46 4f f0 00 08 66 f6 d2 fe 6e f6
+		7e ff 00 90 96 48 22 21 01 60 4f f4 46 19 00 27
 		c9 f8 00 72 04 21 c9 f8 04 12 4f f4 48 14 27 66
-		c9 f8 00 70 32 20 13 f6 7c fc 8e 48 e0 65 4f f4
-		45 11 80 20 c8 60 c8 20 13 f6 73 fc df f8 20 b2
+		c9 f8 00 70 32 20 13 f6 78 fc 8e 48 e0 65 4f f4
+		45 11 80 20 c8 60 c8 20 13 f6 6f fc df f8 20 b2
 		28 78 4f f4 ca 0a 0b f1 30 0b 4f f4 82 04 4f f4
 		c0 06 58 b3 ff f7 bf ff d4 f8 a8 01 20 f0 18 00
 		40 f0 08 00 c4 f8 a8 01 db f8 00 10 21 f0 01 01
 		cb f8 00 10 c6 f8 bc 71 7b 48 07 60 d6 f8 fc 02
 		20 f0 0c 00 c6 f8 fc 02 73 49 88 68 50 b1 0a f5
 		b0 70 02 69 22 f0 01 02 02 61 02 68 22 f0 01 02
-		02 60 8f 60 00 98 6e f6 32 ff cd e0 00 20 34 f6
-		2d fd 69 49 01 20 88 60 0a f5 b0 70 01 69 41 f0
+		02 60 8f 60 00 98 6e f6 2e ff cd e0 00 20 34 f6
+		29 fd 69 49 01 20 88 60 0a f5 b0 70 01 69 41 f0
 		01 01 01 61 01 68 41 f0 01 01 01 60 ca 46 c9 f8
 		00 72 4f f0 80 01 c9 f8 04 12 ff f7 6f ff a8 78
 		08 b9 c4 f8 f4 71 e8 78 01 28 3c d0 02 28 3a d0
@@ -1282,11 +1305,11 @@ ENTRY "Data" = "OVERFLOW_PATCH_CODE from tier2/Generic/btle/20820FCBGA62_OCF/bld
 		08 31 08 60 68 78 80 1e 09 1f 08 60 53 49 ca f8
 		00 10 00 20 4f f4 7a 73 4f f4 45 12 01 46 40 1c
 		99 42 02 d8 d1 68 09 06 f8 d5 4f f4 48 10 4f f4
-		00 31 01 66 c8 20 13 f6 ec fb c6 f8 bc 91 db f8
+		00 31 01 66 c8 20 13 f6 e8 fb c6 f8 bc 91 db f8
 		00 10 41 f0 01 01 cb f8 00 10 e8 78 01 28 07 d0
 		02 28 05 d0 0c e0 d6 f8 fc 02 40 f0 0c 00 c5 e7
 		d4 f8 a8 01 20 f0 18 00 40 f0 10 00 c4 f8 a8 01
-		00 98 6e f6 c4 fe 28 78 3c 46 80 bb e0 b2 a9 78
+		00 98 6e f6 c0 fe 28 78 3c 46 80 bb e0 b2 a9 78
 		40 f0 01 00 60 f3 07 04 06 29 19 d2 df e8 01 f0
 		03 07 0e 28 2b 2f 20 f0 1c 00 18 30 0e e0 c4 f3
 		07 20 40 f0 01 00 60 f3 0f 24 09 e0 c4 f3 07 21
@@ -1295,7 +1318,7 @@ ENTRY "Data" = "OVERFLOW_PATCH_CODE from tier2/Generic/btle/20820FCBGA62_OCF/bld
 		07 28 10 d8 00 06 80 0d 40 42 40 b2 12 e0 29 e0
 		20 f0 e0 00 ea e7 20 f0 e0 00 20 30 e6 e7 20 f0
 		e0 00 a0 30 e2 e7 08 28 02 d0 09 28 05 d0 08 e0
-		95 f9 05 00 a3 f6 13 f8 02 e0 a8 79 a2 f6 0a fb
+		95 f9 05 00 a3 f6 0f f8 02 e0 a8 79 a2 f6 06 fb
 		80 46 ca f8 04 83 12 48 00 68 58 b1 e8 78 11 49
 		68 b1 01 28 0d d0 02 28 00 d0 03 20 08 70 0e 48
 		00 68 80 47 06 48 04 60 01 20 bd e8 f8 8f 0f 70
@@ -1331,12 +1354,12 @@ ENTRY "Data" = "OVERFLOW_PATCH_CODE from tier2/Generic/btle/20820FCBGA62_OCF/bld
 		00 b1 80 47 28 68 80 6a 00 28 02 d0 bd e8 70 40
 		00 47 70 bd 2d e9 f0 5f 34 48 00 26 00 68 10 b1
 		33 48 00 68 80 47 2f 4c 20 78 c0 07 30 d0 b2 f6
-		1e fb df f8 c0 90 df f8 c0 a0 28 4f a0 46 98 f8
+		1a fb df f8 c0 90 df f8 c0 a0 28 4f a0 46 98 f8
 		00 10 49 07 02 d5 02 24 01 25 01 e0 00 24 05 25
 		4f f0 00 0b 3c 70 d9 f8 00 00 00 b1 80 47 da f8
 		00 00 00 b1 80 47 98 f8 00 00 c0 07 05 d0 87 f8
 		01 b0 31 46 20 46 ff f7 77 ff 64 1c 6d 1e e9 d1
-		76 1c f6 b2 01 2e da d9 bd e8 f0 5f b2 f6 75 be
+		76 1c f6 b2 01 2e da d9 bd e8 f0 5f b2 f6 71 be
 		bd e8 f0 9f 1f 48 20 00 20 48 20 00 26 48 20 00
 		ac 06 41 00 2c 48 20 00 20 06 60 00 30 48 20 00
 		32 48 20 00 1a 48 20 00 1b 48 20 00 19 48 20 00
@@ -1347,109 +1370,149 @@ ENTRY "Data" = "OVERFLOW_PATCH_CODE from tier2/Generic/btle/20820FCBGA62_OCF/bld
 		19 4e 1a 4d 4f f4 80 40 72 78 29 68 01 2a 06 d1
 		17 4b 19 b1 4f f4 81 44 1c 60 00 e0 18 60 14 4f
 		98 37 38 60 13 4c 20 68 11 b1 01 2a 00 d1 a0 68
-		6f f6 ce f9 4f f4 c0 40 38 60 70 78 29 68 01 28
+		6f f6 ca f9 4f f4 c0 40 38 60 70 78 29 68 01 28
 		02 d0 71 b1 06 d0 0c e0 0b 48 41 b1 01 68 41 f0
-		40 01 01 60 e0 68 bd e8 f0 41 6f f6 b9 b9 40 21
+		40 01 01 60 e0 68 bd e8 f0 41 6f f6 b5 b9 40 21
 		01 60 60 68 f7 e7 00 00 8c 5d 20 00 b4 f7 20 00
 		64 04 41 00 7c fc 20 00 e4 05 41 00 2d e9 f0 5f
-		04 46 4f f0 00 0b 9e f6 41 fc 50 b1 17 21 20 46
-		a4 f6 ae f9 20 46 bd e8 f0 5f 02 22 00 21 8e f6
-		9c ba 20 46 65 f6 76 fd 09 26 86 4d 00 28 7d d0
+		04 46 4f f0 00 0b 9e f6 3d fc 50 b1 17 21 20 46
+		a4 f6 aa f9 20 46 bd e8 f0 5f 02 22 00 21 8e f6
+		98 ba 20 46 65 f6 72 fd 09 26 86 4d 00 28 7d d0
 		69 68 e0 69 0a 7b c0 f3 c0 30 c2 f3 00 02 90 42
 		07 d0 94 f8 a5 00 09 28 03 d1 94 f8 a3 00 c0 07
-		66 d0 0d 31 10 22 04 f5 80 70 44 f6 6e f9 94 f8
+		66 d0 0d 31 10 22 04 f5 80 70 44 f6 6a f9 94 f8
 		a5 00 1a 27 4f f0 1d 08 1c 28 11 d0 94 f8 a4 00
 		4f f0 17 0a 4f f0 18 09 98 b1 02 28 0c d0 01 28
 		0f d0 05 28 08 d0 06 28 06 d0 1b 28 38 d0 b0 e0
-		20 68 2a f6 00 fa 0a e0 68 68 00 7b c0 f3 00 02
+		20 68 2a f6 fc f9 0a e0 68 68 00 7b c0 f3 00 02
 		91 e0 94 f8 a3 10 c9 07 0e d0 1b 28 14 d0 68 68
-		00 7b c0 f3 00 01 20 46 9e f6 bb fb e0 69 00 04
+		00 7b c0 f3 00 01 20 46 9e f6 b7 fb e0 69 00 04
 		1b d4 84 f8 a5 70 94 e0 01 28 02 d0 20 46 01 f6
-		d2 fd 84 f8 a5 60 8c e0 e0 69 00 04 0a d5 68 68
-		00 21 00 7b c0 f3 00 02 20 46 9e f6 83 fc 84 f8
+		ce fd 84 f8 a5 60 8c e0 e0 69 00 04 0a d5 68 68
+		00 21 00 7b c0 f3 00 02 20 46 9e f6 7f fc 84 f8
 		a4 a0 7e e0 84 f8 a4 90 7b e0 84 f8 a5 80 78 e0
-		20 68 2a f6 c8 f9 e0 69 00 04 0c d5 68 68 00 21
-		00 7b c0 f3 00 02 20 46 9e f6 6c fc 84 f8 a4 a0
+		20 68 2a f6 c4 f9 e0 69 00 04 0c d5 68 68 00 21
+		00 7b c0 f3 00 02 20 46 9e f6 68 fc 84 f8 a4 a0
 		bd e8 f0 9f 02 e0 84 f8 a4 90 f9 e7 69 68 e3 69
 		04 f1 78 07 0a 7b c3 f3 c0 30 c2 f3 00 02 90 42
 		07 d0 94 f8 a4 00 01 28 08 d0 94 f8 a5 00 09 28
 		0c d0 94 f8 a5 00 0c 28 1e d0 0b e0 0d 31 10 22
-		38 46 44 f6 ea f8 84 f8 a5 60 d9 e7 94 f8 a3 00
+		38 46 44 f6 e6 f8 84 f8 a5 60 d9 e7 94 f8 a3 00
 		c0 07 d5 d0 94 f8 a4 00 60 b3 02 28 23 d0 01 28
 		28 d0 04 28 26 d0 03 28 24 d0 05 28 1b d0 06 28
-		19 d0 07 28 49 d0 2c e0 20 68 2a f6 7c f9 e0 69
-		69 68 40 f3 c0 32 52 1c 0d 31 20 46 9e f6 22 fc
-		e0 69 40 f3 c0 31 49 1c 20 46 9e f6 3a fb 0d 20
+		19 d0 07 28 49 d0 2c e0 20 68 2a f6 78 f9 e0 69
+		69 68 40 f3 c0 32 52 1c 0d 31 20 46 9e f6 1e fc
+		e0 69 40 f3 c0 31 49 1c 20 46 9e f6 36 fb 0d 20
 		84 f8 a5 00 15 e0 20 46 bd e8 f0 5f 06 23 0b 21
-		62 f6 9f bc 94 f8 a3 20 d2 07 1a d0 43 f3 c0 32
-		52 1c 0d 31 20 46 9e f6 05 fc 00 21 20 46 9e f6
-		b1 fb 69 68 e0 69 09 7b c0 f3 c0 30 c1 f3 00 01
+		62 f6 9b bc 94 f8 a3 20 d2 07 1a d0 43 f3 c0 32
+		52 1c 0d 31 20 46 9e f6 01 fc 00 21 20 46 9e f6
+		ad fb 69 68 e0 69 09 7b c0 f3 c0 30 c1 f3 00 01
 		48 40 80 f0 01 02 59 46 20 46 bd e8 f0 5f 9e f6
-		ca ba 01 28 02 d0 20 46 01 f6 2d fd 69 68 10 22
-		0d 31 38 46 44 f6 89 f8 53 e7 20 68 2a f6 33 f9
+		c6 ba 01 28 02 d0 20 46 01 f6 29 fd 69 68 10 22
+		0d 31 38 46 44 f6 85 f8 53 e7 20 68 2a f6 2f f9
 		e0 69 69 68 c0 f3 c0 32 20 46 bd e8 f0 5f 0d 31
-		9e f6 d8 bb e4 c8 20 00 03 29 08 d1 03 b4 28 46
-		41 46 22 46 00 f0 12 f8 03 bc 06 f6 08 bf 06 f6
-		5d be 28 46 31 46 00 f0 3a f8 18 b1 02 48 c0 7c
-		07 f6 b4 b9 07 f6 c5 b9 40 10 20 00 f0 b4 0c 79
+		9e f6 d4 bb e4 c8 20 00 03 29 08 d1 03 b4 28 46
+		41 46 22 46 00 f0 12 f8 03 bc 06 f6 04 bf 06 f6
+		59 be 28 46 31 46 00 f0 3a f8 18 b1 02 48 c0 7c
+		07 f6 b0 b9 07 f6 c1 b9 40 10 20 00 f0 b4 0c 79
 		00 23 0d 1d 7f 26 b6 eb 54 0f 02 d1 6c 78 01 23
 		00 e0 64 08 16 78 c7 69 c6 f3 02 05 c7 f3 02 07
 		bd 42 03 d1 05 2c 07 d1 33 b1 03 e0 00 2b 14 d0
 		05 2c 12 d1 73 07 10 d1 52 88 41 f6 f8 73 1a 42
 		0b d0 c6 f3 c3 03 03 2b 01 d0 08 2b 05 d1 f0 bc
-		c2 f3 c9 02 d2 b2 1a f6 eb b8 f0 bc 70 47 70 b5
+		c2 f3 c9 02 d2 b2 1a f6 e7 b8 f0 bc 70 47 70 b5
 		04 46 40 88 0d 46 c0 f3 01 00 03 28 03 d1 20 20
-		f1 f5 4f fe 08 b1 01 20 70 bd 60 7a 20 f0 01 00
-		60 72 28 46 8e f6 be fc 00 20 70 bd 2d e9 f0 41
-		00 26 35 46 28 46 65 f6 a0 fb 04 00 0a d0 04 f1
-		0c 00 6b f6 b4 fd 07 46 04 f1 08 00 6b f6 af fd
+		f1 f5 4b fe 08 b1 01 20 70 bd 60 7a 20 f0 01 00
+		60 72 28 46 8e f6 ba fc 00 20 70 bd 2d e9 f0 41
+		00 26 35 46 28 46 65 f6 9c fb 04 00 0a d0 04 f1
+		0c 00 6b f6 b0 fd 07 46 04 f1 08 00 6b f6 ab fd
 		38 44 06 44 6d 1c ed b2 0d 2d eb d3 30 46 bd e8
 		f0 81 00 00 10 b5 ff f7 e1 ff 04 46 20 20 f1 f5
-		20 fe 08 b1 0a 2c 09 d9 05 4c e0 7a 65 f6 e7 f8
-		65 f6 d6 fa ff 20 e0 72 00 20 10 bd 01 20 10 bd
-		f0 23 20 00 7f b5 05 46 01 46 00 20 ac f6 a6 fd
+		1c fe 08 b1 0a 2c 09 d9 05 4c e0 7a 65 f6 e3 f8
+		65 f6 d2 fa ff 20 e0 72 00 20 10 bd 01 20 10 bd
+		f0 23 20 00 7f b5 05 46 01 46 00 20 ac f6 a2 fd
 		14 4e 04 46 96 f9 00 00 03 28 1e dc 12 48 08 21
-		80 6a 01 eb 80 00 f1 f5 fc fd b0 b1 30 78 40 1c
-		30 70 0c 20 ad f8 00 00 68 46 01 95 1a f6 0c f8
-		a2 f6 05 fc 09 4a 01 46 95 f8 a4 00 12 68 c0 eb
+		80 6a 01 eb 80 00 f1 f5 f8 fd b0 b1 30 78 40 1c
+		30 70 0c 20 ad f8 00 00 68 46 01 95 1a f6 08 f8
+		a2 f6 01 fc 09 4a 01 46 95 f8 a4 00 12 68 c0 eb
 		00 10 02 eb c0 00 00 f8 74 1c 94 f9 20 00 04 b0
 		70 bd 00 00 cb 6c 20 00 8c c8 20 00 50 68 20 00
+		70 b5 0e 46 05 46 2a f6 40 fd 04 00 29 d0 94 f8
+		02 01 40 f0 02 00 84 f8 02 01 84 f8 88 60 28 68
+		c4 f8 82 00 a8 88 a4 f8 86 00 28 46 17 f6 ab fb
+		b0 b1 d0 f8 0d 10 c4 f8 8a 10 b0 f8 11 10 a4 f8
+		8e 10 04 f1 88 04 00 7b 60 70 60 7c 40 f0 02 00
+		60 74 20 78 c0 07 03 d0 01 21 28 46 1a f6 d7 fd
+		01 20 70 bd bd e8 30 40 af f3 00 80 70 b5 04 46
+		a2 b0 d0 f8 0e 00 00 90 60 8a ad f8 04 00 d4 f8
+		8a 00 cd f8 1a 00 b4 f8 8e 00 ad f8 1e 00 94 f8
+		89 00 8d f8 19 00 94 f8 54 00 0d f1 06 05 8d f8
+		06 00 04 f1 80 06 10 22 04 f1 24 01 68 1c 43 f6
+		50 ff 94 f8 99 00 8d f8 17 00 68 22 04 f1 9a 01
+		05 f1 1a 00 43 f6 45 ff 14 f8 88 0f 8d f8 18 00
+		60 78 8d f8 19 00 d6 f8 0a 00 cd f8 1a 00 f0 89
+		ad f8 1e 00 03 48 69 46 d0 f8 dc 25 12 20 90 47
+		22 b0 70 bd 38 85 20 00 70 b5 10 f8 01 5b 86 b0
+		30 f8 02 4b 01 46 68 46 18 f6 ae fa 01 78 c4 f3
+		0b 06 43 78 00 24 01 29 10 d0 05 94 00 98 03 90
+		04 94 bd f8 04 00 ad f8 10 00 02 94 02 ab 32 46
+		69 46 28 46 14 f6 41 ff 06 b0 70 bd 2a 46 31 46
+		68 46 2b f6 18 f9 6a 46 31 46 28 46 25 f6 c5 fc
+		00 2d f1 d1 68 46 2a f6 3f fa 00 28 ec d0 00 99
+		c0 f8 8a 10 bd f8 04 10 a0 f8 8e 10 80 f8 89 40
+		e2 e7 00 00 10 b5 10 f6 80 fd 04 28 0b d0 0f 48
+		01 6a c9 07 0b d0 90 f8 24 00 05 28 07 d0 0c 48
+		00 78 02 28 01 d0 06 20 10 bd 01 20 10 bd 00 20
+		10 bd 10 b5 10 f6 69 fd 04 28 04 d0 03 48 00 6a
+		00 f0 01 00 10 bd 01 20 10 bd 00 00 c4 59 20 00
+		ac 59 20 00 2d e9 f0 41 0d 46 17 46 06 46 17 f6
+		fb fa 04 46 29 78 30 46 1f f6 bd fd 7c b1 17 b1
+		08 b1 1a f6 56 fe 28 78 80 07 05 d4 20 68 30 60
+		a0 88 b0 80 a0 79 28 70 01 20 bd e8 f0 81 00 20
+		fb e7 00 00
 	} END_COMMENTED_BYTES
 }
 ENTRY "Data" = "INIT_AREA from tier2/Generic/btle/20820FCBGA62_OCF/bld/20819_ram_ext.elf"
 {
-	"Address" = 0x21072C
+	"Address" = 0x210938
 	"Data" =
 	COMMENTED_BYTES
 	{
 		<hex>
 		70 b5 00 24 10 4d 1c e0 10 48 01 19 0a 68 c2 f3
-		17 00 12 0e 05 d0 93 07 06 d0 49 68 fc f5 42 fc
+		17 00 12 0e 05 d0 93 07 06 d0 49 68 fc f5 3c fb
 		0e e0 49 68 01 60 0b e0 12 f0 0c 0f 03 d0 49 68
-		fc f5 4c fc 04 e0 d2 06 02 d5 49 68 fc f5 50 fc
-		08 34 ac 42 e0 d3 70 bd d0 00 00 00 7c 07 21 00
+		fc f5 46 fb 04 e0 d2 06 02 d5 49 68 fc f5 4a fb
+		08 34 ac 42 e0 d3 70 bd 40 01 00 00 88 09 21 00
 	} END_COMMENTED_BYTES
 }
 ENTRY "Data" = "INIT_PATCH_TABLE from tier2/Generic/btle/20820FCBGA62_OCF/bld/20819_ram_ext.elf"
 {
-	"Address" = 0x21077C
+	"Address" = 0x210988
 	"Data" =
 	COMMENTED_BYTES
 	{
 		<hex>
-		05 0e 02 01 0d fd 20 00 c9 f4 0b 01 9d fd 20 00
+		05 0e 02 01 15 fd 20 00 c9 f4 0b 01 a5 fd 20 00
 		d9 a3 00 02 01 04 27 00 59 b0 02 02 19 04 27 00
-		bd e0 0b 01 e1 01 21 00 39 58 0c 01 c9 02 21 00
+		bd e0 0b 01 e9 01 21 00 39 58 0c 01 d1 02 21 00
 		9d f3 0a 02 25 04 27 00 e1 09 0b 02 2d 04 27 00
-		65 72 01 02 95 05 21 00 25 79 01 02 af 05 21 00
-		f1 19 09 02 35 04 27 00 19 2f 0b 01 c1 06 21 00
+		65 72 01 02 9d 05 21 00 25 79 01 02 b7 05 21 00
+		f1 19 09 02 35 04 27 00 19 2f 0b 01 c9 06 21 00
 		8d b9 08 02 49 04 27 00 39 3f 0a 02 55 04 27 00
-		a5 cc 0a 02 11 09 27 00 c9 cc 0a 02 3b 09 27 00
+		a5 cc 0a 02 bd 09 27 00 c9 cc 0a 02 e7 09 27 00
 		c9 d7 00 02 61 04 27 00 4d 42 04 02 6d 04 27 00
-		29 43 04 01 d3 0e 27 00 a9 83 05 02 79 04 27 00
-		61 69 00 01 ad 0c 27 00 35 6f 02 02 89 04 27 00
-		31 03 03 01 09 0d 27 00 d5 1d 00 02 99 04 27 00
-		0d fd 07 02 bd 04 27 00 d9 fb 07 02 d9 04 27 00
+		29 43 04 01 5b 10 27 00 d9 86 02 02 79 04 27 00
+		39 83 02 01 35 07 21 00 31 ba 03 02 99 07 21 00
+		bd 29 02 01 2d 08 21 00 a9 83 05 02 89 04 27 00
+		a1 12 02 02 99 04 27 00 25 13 02 02 ad 04 27 00
+		41 13 02 02 c1 04 27 00 f9 06 01 02 a9 08 21 00
+		d1 06 01 02 d7 08 21 00 61 69 00 01 9d 0d 27 00
+		35 6f 02 02 c9 04 27 00 31 03 03 01 f9 0d 27 00
+		cd 04 03 01 f9 08 21 00 4d 20 03 02 d9 04 27 00
+		5d 21 03 02 eb 04 27 00 29 18 02 02 f9 04 27 00
+		d5 1d 00 02 01 05 27 00 15 c3 01 02 25 05 27 00
+		0d fd 07 02 45 05 27 00 d9 fb 07 02 61 05 27 00
 	} END_COMMENTED_BYTES
 }
 ENTRY "AON Data" = "AON_DATA from tier2/Generic/btle/20820FCBGA62_OCF/bld/20819_ram_ext.elf"
@@ -1486,7 +1549,7 @@ ENTRY "Slimboot Patch Loader" = "SB_LOADER_AREA from tier2/Generic/btle/20820FCB
 }
 ENTRY "Function Call"
 {
-	"Address" = 0x27058F
+	"Address" = 0x270631
 }
 ENTRY "Data" = "gRxSettlingTime"
 {

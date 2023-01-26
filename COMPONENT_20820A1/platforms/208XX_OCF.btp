@@ -42,7 +42,7 @@ DevicePreset "20819A1 Serial Flash (4K pages)"
     DLConfigVSLocation = 0x500400
     DLConfigVSLength = 0x1000
     DLConfigRemoteDeviceCount = 0
-    DLConfigBD_ADDRBase = "20819A1*****"
+    DLConfigBD_ADDRBase = "20820A1*****"
     DLConfigFixedBD_ADDRFlag = "Can change"
     OTAFWUAckAllRecords = 0
     OTAFWUUpdateFirmware = 1

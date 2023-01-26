@@ -29,6 +29,12 @@ The Infineon CYW20820 and CYW89820 are ultra-low-power dual-mode Bluetooth&#174;
   power, programming, and USB-UART bridge.<br>
   Max UART baud rate is 3M
 
+#### CYW989820M2EVB-01:
+- 48-WQFN package, Arduino compatible headers, an ambient light sensor, thermistor,
+  Infineon digital microphone, user switches and LEDs, USB connector for power, programming, and
+  USB-UART bridge.<br>
+  Max UART baud rate is 3M
+
 #### CYW920820M2EVB-01:
 - 62-FPBGA package, Arduino compatible headers, ambient light sensor, thermistor,
   footprint for analog microphone, footprint for Infineon digital microphone, user
