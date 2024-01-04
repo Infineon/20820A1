@@ -148,9 +148,9 @@ CY_CORE_DEFINES+=\
 
 CY_CORE_EXTRA_DEFINES=\
 	-DWICED_SDK_MAJOR_VER=4 \
-	-DWICED_SDK_MINOR_VER=4 \
-	-DWICED_SDK_REV_NUMBER=2 \
-	-DWICED_SDK_BUILD_NUMBER=14114
+	-DWICED_SDK_MINOR_VER=5 \
+	-DWICED_SDK_REV_NUMBER=1 \
+	-DWICED_SDK_BUILD_NUMBER=22646
 
 #
 # Set the output file paths
@@ -166,7 +166,10 @@ endif
 #
 # declare configurator support conditionally for all boards
 ifneq ($(LIBNAME),BTSDK_TopLevel)
-CY_SUPPORTED_TOOL_TYPES+=device-configurator bt-configurator
+CY_SUPPORTED_TOOL_TYPES+=bt-configurator
+ifneq ($(DEVICE), $(filter $(DEVICE), Vela-IF820-INT-ANT Vela-IF820-EXT-ANT))
+CY_SUPPORTED_TOOL_TYPES+=device-configurator
+endif
 endif
 
 # hint for bt-configurator

@@ -131,6 +131,12 @@ void wiced_platform_init(void)
     wiced_hal_gpio_select_function(WICED_P32, WICED_TX_PU);
 #endif
 
+#if (defined(Vela_IF820_INT_ANT_DVK) || defined (Vela_IF820_EXT_ANT_DVK))
+    /* any other personality-based initialization */
+    void init_cycfg_all();
+    init_cycfg_all();
+#endif
+
     /* disable watchdog, set up SWD, wait for attach if ENABLE_DEBUG */
     SETUP_APP_FOR_DEBUG_IF_DEBUG_ENABLED();
     BUSY_WAIT_TILL_MANUAL_CONTINUE_IF_DEBUG_ENABLED();

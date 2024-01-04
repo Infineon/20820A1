@@ -54,3 +54,19 @@ The Infineon CYW20820 and CYW89820 are ultra-low-power dual-mode Bluetooth&#174;
   and LEDs, FCC, ISED, MIC, and CE Certified Module on board (CYBT-253059-02),
   USB connector for power, programming, and USB-UART bridge.<br>
   Max UART baud rate is 1M. Use baud rate of 115200 for Client Control.
+
+#### Vela-IF820-INT-ANT-DVK:
+- Vela IF820 Integrated Antenna DVK Board (453-00171-K1) with on-board Vela IF820 Module (453-00171),
+  CYW20820-based dual-mode Bluetooth&#174; (LE/BR/EDR) and Bluetooth&#174; 5.2 certified,
+  FCC, ISED, CE, UKCA, MIC, RCM and KCC Certified Module on board.
+  DVK supports MikroBus and Qwicc connectors for easy sensor board additions,
+  simple headers and jumpers for all I/O, LEDs, buttons and switches.<br>
+  Max UART baud rate is 1M. Use baud rate of 115200 for Client Control.
+
+#### Vela-IF820-EXT-ANT-DVK:
+- Vela IF820 External Antenna DVK Board (453-00172-K1) with on-board Vela IF820 Module, MHF4 Connector (453-00172),
+  CYW20820-based dual-mode Bluetooth&#174; (LE/BR/EDR) and Bluetooth&#174; 5.2 certified,
+  FCC, ISED, CE, UKCA, MIC, RCM and KCC Certified Module on board.
+  DVK supports MikroBus and Qwicc connectors for easy sensor board additions,
+  simple headers and jumpers for all I/O, LEDs, buttons and switches.<br>
+  Max UART baud rate is 1M. Use baud rate of 115200 for Client Control.
