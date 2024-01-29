@@ -2,7 +2,7 @@
 
 ### Overview
 
-The Infineon CYW20820 and CYW89820 are ultra-low-power dual-mode Bluetooth&#174; 5.2 wireless MCU devices. They have a stand-alone baseband processor with an integrated 2.4 GHz transceiver supporting LE/BR/EDR,and an internal Power Amplifier (iPA) with programmable BDR transmit power up to 10.5 dBm.  CYW208XX refers to both parts
+The Infineon CYW20820 and CYW89820 are ultra-low-power dual-mode Bluetooth&#174; 5.4 wireless MCU devices. They have a stand-alone baseband processor with an integrated 2.4 GHz transceiver supporting LE/BR/EDR,and an internal Power Amplifier (iPA) with programmable BDR transmit power up to 10.5 dBm.  CYW208XX refers to both parts
 
 ## SDK Software Features
 - Dual mode Bluetooth&#174; stack included in the ROM (BR/EDR and LE).
@@ -42,14 +42,14 @@ The Infineon CYW20820 and CYW89820 are ultra-low-power dual-mode Bluetooth&#174;
   Max UART baud rate is 3M
 
 #### CYBT-243053-EVAL:
-- CYW20820-based dual-mode (LE/BR/EDR) Bluetooth&#174; 5.0-compliant fully certified module
+- CYW20820-based dual-mode (LE/BR/EDR) Bluetooth&#174; 5.4-compliant fully certified module
   (CYBT-243053-02), Arduino compatible headers for hardware expansion, user switches
   and LEDs, FCC, ISED, MIC, and CE Certified Module on board (CYBT-243053-02),
   USB connector for power, programming, and USB-UART bridge.<br>
   Max UART baud rate is 1M. Use baud rate of 115200 for Client Control.
 
 #### CYBT-253059-EVAL:
-- CYW20820-based dual-mode (LE/BR/EDR) Bluetooth&#174; 5.0-compliant fully certified module
+- CYW20820-based dual-mode (LE/BR/EDR) Bluetooth&#174; 5.4-compliant fully certified module
   (CYBT-253059-02), Arduino compatible headers for hardware expansion, user switches
   and LEDs, FCC, ISED, MIC, and CE Certified Module on board (CYBT-253059-02),
   USB connector for power, programming, and USB-UART bridge.<br>
@@ -57,7 +57,7 @@ The Infineon CYW20820 and CYW89820 are ultra-low-power dual-mode Bluetooth&#174;
 
 #### Vela-IF820-INT-ANT-DVK:
 - Vela IF820 Integrated Antenna DVK Board (453-00171-K1) with on-board Vela IF820 Module (453-00171),
-  CYW20820-based dual-mode Bluetooth&#174; (LE/BR/EDR) and Bluetooth&#174; 5.2 certified,
+  CYW20820-based dual-mode Bluetooth&#174; (LE/BR/EDR) and Bluetooth&#174; 5.4 certified,
   FCC, ISED, CE, UKCA, MIC, RCM and KCC Certified Module on board.
   DVK supports MikroBus and Qwicc connectors for easy sensor board additions,
   simple headers and jumpers for all I/O, LEDs, buttons and switches.<br>
@@ -65,7 +65,7 @@ The Infineon CYW20820 and CYW89820 are ultra-low-power dual-mode Bluetooth&#174;
 
 #### Vela-IF820-EXT-ANT-DVK:
 - Vela IF820 External Antenna DVK Board (453-00172-K1) with on-board Vela IF820 Module, MHF4 Connector (453-00172),
-  CYW20820-based dual-mode Bluetooth&#174; (LE/BR/EDR) and Bluetooth&#174; 5.2 certified,
+  CYW20820-based dual-mode Bluetooth&#174; (LE/BR/EDR) and Bluetooth&#174; 5.4 certified,
   FCC, ISED, CE, UKCA, MIC, RCM and KCC Certified Module on board.
   DVK supports MikroBus and Qwicc connectors for easy sensor board additions,
   simple headers and jumpers for all I/O, LEDs, buttons and switches.<br>
