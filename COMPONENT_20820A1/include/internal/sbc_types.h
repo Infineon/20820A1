@@ -84,9 +84,9 @@ typedef unsigned short      uint16;
 typedef signed   short      int16;
 typedef unsigned long       uint32;
 typedef signed   long       int32;
-#endif
+#endif // if 0
 
-#endif
+#endif // ifndef __TYPES_H__
 
 
 /*TYPEDEFS*/
@@ -109,4 +109,4 @@ typedef __int64 SBC_SINT64;
 
 #define abs32(x) ( (x >= 0) ? x : (-x) )
 
-#endif
+#endif // ifndef SBC_TYPES_H

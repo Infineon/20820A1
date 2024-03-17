@@ -804,7 +804,7 @@
 /*
  * Vendor specific
  */
-#endif
+#endif // ifndef AUTOCONF_INCLUDED
 /*
  * From compile environment
  */

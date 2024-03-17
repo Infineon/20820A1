@@ -9,7 +9,7 @@ The Infineon CYW20820 and CYW89820 are ultra-low-power dual-mode Bluetooth&#174;
 - Bluetooth&#174; stack and profile level APIs for embedded Bluetooth&#174; application development.
 - AIROC&#8482; HCI protocol to simplify host/MCU application development.
 - APIs and drivers to access on board peripherals.
-- Bluetooth&#174; protocols include GAP, GATT, SMP, RFCOMM, SDP, AVDT/AVCT, LE Mesh
+- Bluetooth&#174; protocols include GAP, GATT, SMP, RFCOMM, SDP, AVDT/AVCT
 - LE and BR/EDR profile APIs, libraries, and sample apps.
 - Support for Over-The-Air (OTA) upgrade.
 - Device Configurator for creating custom pin mapping.
